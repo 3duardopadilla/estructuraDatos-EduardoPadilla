@@ -7,6 +7,7 @@ package estructuradedatos2026;
 public class TestGit {
     String nombre = "Eduardo Padilla";
     String id = "000000280789";
+    
     String carrera = "ISW";
     int edad = 19;
 }
