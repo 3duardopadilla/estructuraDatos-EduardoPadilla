@@ -1,0 +1,115 @@
+package estructuradedatos2026;
+
+/**
+ *
+ * @author eduardopadilla
+ */
+public class ProductoOG {
+    
+            //Atributos★☆⭐︎
+             private long id; 
+             private String nombre; 
+             private String sku;
+             private char talla;
+             private byte pasillo; 
+             private short loteAnio;
+             private int stockDisponible; 
+             private float pesoKg; 
+             private double precioUnitario; 
+             private boolean activo; 
+             
+             //Constructor                    
+    public ProductoOG(long id, String nombre, String sku, char talla, byte pasillo, short loteAnio, int stockDisponible, float pesoKg, double precioUnitario, boolean activo) {
+        this.id = id;
+        this.nombre = nombre;
+        this.sku = sku;
+        this.talla = talla;
+        this.pasillo = pasillo;
+        this.loteAnio = loteAnio;
+        this.stockDisponible = stockDisponible;
+        this.pesoKg = pesoKg;
+        this.precioUnitario = precioUnitario;
+        this.activo = activo;
+             //Metodos getters & Setter
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getSku() {
+        return sku;
+    }
+
+    public void setSku(String sku) {
+        this.sku = sku;
+    }
+
+    public char getTalla() {
+        return talla;
+    }
+
+    public void setTalla(char talla) {
+        this.talla = talla;
+    }
+
+    public byte getPasillo() {
+        return pasillo;
+    }
+
+    public void setPasillo(byte pasillo) {
+        this.pasillo = pasillo;
+    }
+
+    public short getLoteAnio() {
+        return loteAnio;
+    }
+
+    public void setLoteAnio(short loteAnio) {
+        this.loteAnio = loteAnio;
+    }
+
+    public int getStockDisponible() {
+        return stockDisponible;
+    }
+
+    public void setStockDisponible(int stockDisponible) {
+        this.stockDisponible = stockDisponible;
+    }
+
+    public float getPesoKg() {
+        return pesoKg;
+    }
+
+    public void setPesoKg(float pesoKg) {
+        this.pesoKg = pesoKg;
+    }
+
+    public double getPrecioUnitario() {
+        return precioUnitario;
+    }
+
+    public void setPrecioUnitario(double precioUnitario) {
+        this.precioUnitario = precioUnitario;
+    }
+
+    public boolean isActivo() {
+        return activo;
+    }
+
+    public void setActivo(boolean activo) {
+        this.activo = activo;
+    }
+}
